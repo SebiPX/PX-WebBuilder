@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--theme-primary, #000000);
+  --color-secondary: var(--theme-secondary, #a855f7);
+  --radius-theme: var(--theme-radius, 1.5rem);
+}
+
+@layer base {
+  body {
+    background-color: white;
+    color: #111827; /* equivalent to text-gray-900 */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
